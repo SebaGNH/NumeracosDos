@@ -1,6 +1,5 @@
 @echo off
 set "NumeroMotherboard=Default string"
-set "NumeroMotherboard=Default string"
 set "NumeroUUID=03C00218-044D-056F-4206-C90700080009"
 title HWID
 echo **********************************
