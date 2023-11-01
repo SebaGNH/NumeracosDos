@@ -1,8 +1,8 @@
+```bash```
 
 
 
-
-
+```bash
 if %reiniciar%==1 (
     echo -----------------------------
     echo Reiniciando la PC en 120 segundos...
@@ -23,10 +23,8 @@ if %reiniciar%==1 (
     pause > nul
     goto start
 )
-
-
-
-
+```
+```bash
 if %reiniciarMother%==1 (
     set "reiniciar=1"
 ) else if %reiniciarUUID%==1 (
@@ -48,3 +46,24 @@ if %reiniciar%==1 (
     pause > nul
     goto start
 )
+```
+
+```bash
+@echo off
+rem Tu script aquí
+timeout /t 10  REM Espera 10 segundos
+exit  REM Cierra el script
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
