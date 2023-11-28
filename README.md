@@ -57,13 +57,35 @@ exit  REM Cierra el script
 
 
 
+```bash
+@echo off
+start "" "C:\ruta\a\tu\programa.exe"  REM Iniciar el archivo .exe
+timeout /t 5  REM Esperar 5 segundos
+start "" "C:\ruta\a\tu\archivo.bat"  REM Ejecutar otro archivo .bat
+timeout /t 5  REM Esperar 5 segundos
+exit  REM Cerrar este programa .bat
+```
 
+C:\Users\3400G\AppData\Local\Vivaldi\Application\vivaldi.exe --incognito
+```bash
+@echo off
+start "" "C:\Users\3400G\AppData\Local\Vivaldi\Application\vivaldi.exe --incognito"  REM Iniciar el archivo .exe
+timeout /t 1  REM Esperar 1 segundos
+exit  REM Cerrar este programa .bat
+```
+```bash
+@echo off
+start "" "C:\Users\3400G\AppData\Local\Vivaldi\Application\vivaldi.exe" --incognito
+exit
+```
 
-
-
-
-
-
+"G:\Documentos\CTR 2.1 RC5\CTR 2.1.exe"
+```bash
+@echo off
+timeout /t 5  REM Esperar 5 segundos
+start "" "G:\Documentos\CTR 2.1 RC5\CTR 2.1.exe"
+exit
+```
 
 
 
